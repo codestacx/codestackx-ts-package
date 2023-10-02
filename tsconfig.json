@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5", //  compatibilty reasons for all browsers
+    "module": "CommonJS", //  help using in node js as well
+    "declaration": true, //  all objects type defination inside build
+    "outDir": "./lib",
+    "strict": true
+  },
+  "include": ["src"], //  compile all code inside src
+  "exclude": ["node_modules"] //  we don't need node modules to pass into compile process
+}

@@ -2,14 +2,23 @@
   "name": "codestackx-ts-package",
   "version": "1.0.0",
   "description": "Custom typescript package for demo ",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codestacx/codestackx-ts-package.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Atif akram",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.2.2"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
