@@ -1,0 +1,15 @@
+{
+  "name": "codestackx-ts-package",
+  "version": "1.0.0",
+  "description": "Custom typescript package for demo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
